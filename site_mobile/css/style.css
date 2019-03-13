@@ -1,0 +1,768 @@
+/* RESET DE LA PAGE */
+
+* {
+    color: rgb(37, 37, 37);
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+p {
+    color: rgb(129, 128, 128);
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* FONT-AWESOME */
+
+.fas {
+    font-size: 18px;
+}
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&   HEADER */
+
+header {
+    width: 100vw;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* -------------TITRE */
+
+#titre_header {
+    font-size: 1.0em;
+    color: white;
+    margin: 0;
+    padding-left: 2%;
+}
+
+/* ------------MENU BURGER */
+#menu_burger{
+    position: relative;
+    left: 82%;
+    /*bottom: 37.5%;
+    
+    width: 100%; */
+}
+
+#nav_burger{
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.753);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+/* ----------NAVIGATION */
+
+#list_header {
+    padding-top: 1%;
+    padding-left: 0;
+    height: 100%;
+}
+
+.li_header {
+    font-size: 0.8em;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.liens_header {
+    color: rgb(22, 22, 22);
+    
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 1 / HOME */
+
+#section_entete {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.384)), url('../img/fond_section1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid lightgrey;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+/* --------CENTRAGE DU HOME, DE LA PHRASE ET DES LIENS DES RéSEAUX SOCIAUX */
+
+#div_section_entete {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------TITRE EN-TÊTE */
+
+#h2_section_entete {
+    color: white;
+    text-shadow: 2px 2px 5px lightgrey;
+    font-size: 2.5em;
+}
+
+/* ------------P EN-TÊTE */
+
+#p_section_entete {
+    margin: 0;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px lightgrey;
+    color: white;
+}
+
+/*-------- LIENS RESEAUX SOCIAUX */
+
+#div_liens_reseaux {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.icones_reseaux {
+    width: 6%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#h2_section_entete, #p_section_entete, #div_liens_reseaux {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 2 / ABOUT ME  */
+
+#section_about {
+    height: 100%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+/* -------------IMAGE */
+
+#img_section_about {
+    width: 100%;
+    height: 630px;
+    border-top: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+/* ----------------------DIV PARENT ABOUT ME */
+
+#div_section_about {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* H2 H3 p / DE LA SECTION ABOUT ME */
+
+#titre_section_about, #sous_titre_section_about, #p_about {
+    padding-left: 2%;
+}
+
+/* --------------------TITRE ABOUT ME */
+
+#titre_section_about {
+    color: rgb(22, 22, 22);
+}
+
+/*----------- SOUS-TITRE ABOUT ME "UI/UX DESIGN" */
+
+#sous_titre_section_about {
+    color: grey;
+    font-size: 0.8em;
+    padding-top: 0.5%;
+    padding-bottom: 4%;
+}
+
+/* ---------------------------P ABOUT ME  */
+
+#p_about {
+    color: rgb(129, 128, 128);
+    font-size: 13px;
+}
+
+/*-------------- DIV PARENT DES BARRES DE PROGRESSION */
+
+#div_barre_de_progression {
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.barre_container {
+    width: 100%;
+    height: 25px;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+.barre_fond {
+    background-color: rgb(22, 22, 22);
+    border-radius: 2.5px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ---------------------ANIMATION DES BARRES DE COMPéTENCES */
+
+#barre_fond_web{
+    /* animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: barre_fond_web; */
+
+    animation: barre_fond_web 10s normal;
+}
+
+@keyframes barre_fond_web{
+    0% {
+        width: 30%;
+    }
+
+    100%{
+        width: 95%;
+    }
+}
+
+#barre_fond_web {
+    width: 95%;
+}
+
+#barre_fond_branding {
+    /* animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: barre_fond_web; */
+
+    animation: barre_fond_branding 10s normal;
+}
+
+@keyframes barre_fond_branding{
+    0% {
+        width: 30%;
+    }
+
+    100%{
+        width: 80%;
+    }
+}
+
+#barre_fond_branding {
+    width: 80%;
+}
+
+#barre_fond_dev {
+    /* animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: barre_fond_web; */
+
+    animation: barre_fond_dev 10s normal;
+}
+
+@keyframes barre_fond_dev{
+    0% {
+        width: 30%;
+    }
+
+    100%{
+        width: 90%;
+    }
+}
+
+#barre_fond_dev {
+    width: 90%;
+}
+
+.p_barre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+/*-------------- DIV PARENT DES BOUTONS SUBMIT */
+
+#div_bouton_about {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+
+#bouton_cv {
+    width: 125px;
+    height: 30px;
+    border: 2px solid rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#bouton_contact {
+    width: 125px;
+    height: 30px;
+    border: 2px solid rgb(129, 128, 128);
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* ---------------------P BOUTON */
+
+.p_bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.p_bouton_color {
+    color: black;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 3 / SERVICES */
+
+#section_services {
+    padding-bottom: 20%;
+    border-bottom: 3px solid lightgrey;
+    box-shadow: 2px 2px 5px lightgrey;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(219, 219, 219, 0.212);
+}
+
+/* -----------------TITRE SERVICE */
+
+#titre_services {
+    border-top: 3px solid lightgrey;
+    text-align: center;
+    color: rgb(22, 22, 22);
+    font-size: 2em;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* ----------------------DIV PARENT DES SERVICES */
+
+.div_services {
+    background-color: white;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5%;
+    padding-bottom: 2%;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+/* ---------------------H3 ET P DE LA SECTION 3 / SERVICES */
+
+.cercle_service {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+
+.cercle_service:hover {
+    background-color: rgb(22, 22, 22);
+    transition: 1s;
+}
+
+.font_cercle_service {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_cercle_service:hover {
+    color: white;
+}
+
+.sous_titre_services {
+    color: rgb(22, 22, 22);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.p_services {
+    text-align: center;
+}
+
+.sous_titre_services, .p_services {
+    padding-top: 3%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 4 / PORTFOLIO */
+
+#section_portfolio {
+    padding-bottom: 15%;
+    margin-bottom: 10%;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+/* -----------------TITRE PORTFOLIO */
+
+#titre_portfolio {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(22, 22, 22);
+    font-size: 2em;
+}
+
+/* ----------------LISTE PORTFOLIO */
+
+#list_portfolio {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 0;
+    padding-bottom: 10%;
+}
+
+.li_portfolio {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.li_portfolio:hover {
+    text-decoration: underline;
+}
+
+/* ------------------DIV PARENT DES IMAGES DU PORTFOLIO */
+
+#div_img_portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_portfolio {
+    padding-bottom: 5%;
+    width: 350px;
+    height: 300px;
+}
+
+/* ------------------IMAGE DU SURVOLE : HOVER */
+
+.img_hover_portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+}
+
+.img_hover_portfolio:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+/* --------------SOUS-TITRE DE LA L'IMAGE DU SURVOLE : HOVER */
+
+.h3_img_hover_portfolio {
+    font-size: 1.5em;
+    padding-bottom: 1%;
+}
+
+/* DIV PARENT DES CERCLES PENDANT LE SURVOLE */
+
+.div_cercle_portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div_cercle_portfolio {
+    width: 100%;
+}
+
+/* CERCLES PENDANT LE SURVOLE */
+
+.cercle_portfolio {
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 30px;
+    background-color: rgb(22, 22, 22);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.fond_cercle_portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 5 / TESTIMONIALS */
+
+#section_testimonials {
+    box-shadow: 2px 5px 5px lightgrey;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 10%;
+}
+
+/* -----------------TITRE TESTIMONIALS */
+
+#titre_testimonials {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(22, 22, 22);
+    font-size: 2em;
+}
+
+/* ----------------DIV TESTIMONIALS */
+
+.div_testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.img_testimonials {
+    width: 20%;
+}
+
+.p_testimonials {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* -----------------LISTE A PUCES */
+
+#ul_puces_testimonials {
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.li_puces_testimonials {
+    padding: 1%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 6 / INFO */
+
+#section_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+/* ----------------DIV PARENT DES INFOS DANS LA SECTION */
+
+.section_info {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.chiffre_info {
+    font-size: 1.5em;
+    color: rgb(22, 22, 22);
+    font-weight: 700;
+}
+
+/* ---------------ICONES FONT AWESOME */
+
+.fas2 {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 7 / OUR BLOG */
+
+#section_ourblog {
+    box-shadow: 2px 0px 0px lightgrey;
+    border-bottom: 3px solid lightgrey;
+}
+
+/* ---------------TITRE OUR BLOG */
+
+#titre_ourblog {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(22, 22, 22);
+    font-size: 2em;
+}
+
+/* --------------DIV OUR BLOG */
+
+.div_ourblog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+.img_ourblog {
+    width: 375px;
+    height: 300px;
+    padding-bottom: 5%;
+}
+
+/* -----------------SOUS-TITRE DE LA DIV OUR BLOG */
+
+.sous_titre_div_ourblog {
+    font-size: 0.8em;
+    color: grey;
+}
+
+/* -----------------TITRE DE LA DIV OUR BLOG */
+
+.titre_div_ourblog {
+    font-size: 1em;
+}
+
+/* -----------------LIENS DE LA DIV OUR BLOG */
+
+.liens_div_ourblog {
+    text-decoration: underline;
+    font-size: 0.7em;
+}
+
+.sous_titre_div_ourblog, .titre_div_ourblog, .liens_div_ourblog {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+/* -----------------LISTE A PUCES */
+
+#puces_ourblog {
+    background-color: rgba(219, 219, 219, 0.212);
+}
+
+#ul_puces_ourblog {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid lightgrey;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+.li_puces_ourblog {
+    padding: 1%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 8 / CONTACT ME */
+
+/* ------------------TITRE CONTACT */
+
+#titre_contact {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(22, 22, 22);
+    font-size: 2em;
+}
+
+/* ----------------DIV PARENT CONTACT ME */
+
+#contact_me {
+    width: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------------DIV ENFANT CONTACT ME */
+
+.div_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.p_contact {
+    padding-top: 1%;
+}
+
+/* ------------------CERCLE DES ICONES FONT-AWESOME */
+
+.cercle_contact {
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+
+.cercle_contact:hover {
+    background-color: rgb(22, 22, 22);
+    transition: 1s;
+}
+
+.font_cercle_contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.font_cercle_contact:hover {
+    color: white;
+}

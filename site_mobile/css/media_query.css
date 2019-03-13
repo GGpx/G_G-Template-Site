@@ -1,0 +1,165 @@
+@media all and ( min-width: 1050px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* =================HEADER================ */
+    #header_menu {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 100%;
+    }
+    #titre_header {
+        font-size: 1.25em;
+    }
+    #menu_burger {
+        visibility: hidden;
+    }
+    #nav_burger {
+        margin-right: 0;
+        visibility: initial;
+        background-color: inherit;
+    }
+    /* ----------NAVIGATION */
+    #list_header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 0.1%;
+    }
+    .li_header {
+        padding: 0;
+        font-size: 1em;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+    .li_header:hover {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+    .liens_header {
+        color: white;
+    }
+    /* ====================SECTION HOME================= */
+    #div_section_entete {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #div_liens_reseaux {
+        padding-top: 0%;
+    }
+    /* ==================SECTION ABOUT ME============== */
+    #section_about {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-bottom: 0%;
+    }
+    #div_section_about {
+        padding: 0;
+        margin-top: 2%;
+    }
+    #img_section_about {
+        width: 500px;
+    }
+
+    #p_about{
+        font-size: 1em;
+    }
+
+    #div_barre_de_progression{
+        padding-top: 0;
+        padding-bottom: 4%;
+    }
+
+    .barre_container{
+        height: 20%;
+    }
+
+    .barre_fond{
+        height: 100%;
+    }
+
+    #div_bouton_about {
+        padding-top: 10%;
+    }
+    /* ==================SECTION SERVICE============== */
+    #section_services {
+        padding-bottom: 5%;
+    }
+    #container_services {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #titre_services {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    /* DIV SERVICES */
+    .div_services {
+        width: 40%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+    /* =================SECTION PORTFOLIO================ */
+    #section_portfolio {
+        padding-bottom: 5%;
+        margin-bottom: 0%;
+    }
+    #titre_portfolio {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #list_portfolio {
+        padding-bottom: 0%;
+    }
+    #div_img_portfolio {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container_img_portfolio {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        padding-top: 2.5%;
+    }
+    /* ================SECTION TESTIMONIALS============= */
+    #section_testimonials {
+        padding-bottom: 0%;
+    }
+    #titre_testimonials {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .div_testimonials {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+    .p_testimonials {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    /* ===================SECTION INFO================= */
+    #section_info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/css_javascript.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/media_query.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Poppins:500,600,700,800,900"
+        rel="stylesheet">
+    <script src="main.js"></script>
+    <title>G_G_mobile</title>
+</head>
+
+<body>
+    <!-- ========================== HEADER / NAVIGATION DE LA PAGE ==============================-->
+    <header id="header_menu">
+        <h1 id="titre_header">G_G</h1>
+        <i class="fas fa-bars" id="menu_burger" onclick="menu()"></i>
+        <nav id="nav_burger">
+            <ul id="list_header">
+                <li class="li_header"><a id="home" class="liens_header" href="#section_entete">HOME</a></li>
+                <li class="li_header"><a id="about" class="liens_header" href="#section_about">About</a></li>
+                <li class="li_header"><a id="services" class="liens_header" href="#section_services">Services</a></li>
+                <li class="li_header"><a id="works" class="liens_header" href="#section_portfolio">Works</a></li>
+                <li class="li_header"><a id="clients" class="liens_header" href="#section_testimonials">Clients</a></li>
+                <li class="li_header"><a id="blog" class="liens_header" href="#section_ourblog">Blog</a></li>
+                <li class="li_header"><a id="contact" class="liens_header" href="#section_contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- ========================== SECTION 1 / HOME ==============================-->
+    <section id="section_entete">
+
+        <div id="div_section_entete">
+            <h2 id="h2_section_entete">Hello</h2>
+            <p id="p_section_entete">I'm a Fucking Dev</p>
+
+            <div id="div_liens_reseaux">
+                <a href="#"><img class="icones_reseaux" src="img/icones/icon_facebook.png" alt="icône facebook"></a>
+                <a href="#"><img class="icones_reseaux" src="img/icones/icon_twitter.png" alt="icône twitter"></a>
+                <a href="#"><img class="icones_reseaux" src="img/icones/icon_linked_in.png" alt="icône linked in"></a>
+                <a href="#"><img class="icones_reseaux" src="img/icones/icon_behance.png" alt="icône behance"></a>
+                <a href="#"><img class="icones_reseaux" src="img/icones/icon_youtube.png" alt="icône youtube"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================== SECTION 2 / ABOUT ME ==============================-->
+    <section id="section_about">
+        <p><img id="img_section_about" src="img/img_aboutme/img_aboutme3_mini.png" alt="Pont entre des building"></p>
+        <div id="div_section_about">
+            <h2 id="titre_section_about">About Me.</h2>
+            <h3 id="sous_titre_section_about">UI / UX DESIGNER &amp; WEB DEVELOPER</h3>
+            <p id="p_about">I am <span>Magical Princess</span> lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Alias
+                ipsa
+                labore
+                fugiat exercitationem possimus
+                minima. Laborum mollitia corporis asperiores temporibus unde? Modi sed officiis quis cupiditate unde
+                dolorum aliquam a.
+                Animi dignissimos tempora nam, sunt, corrupti quae temporibus quos adipisci consequatur, laboriosam
+                dolore
+                at expedita rerum cumque quasi enim sint sit? In rerum veritatis commodi vel, corporis similique modi.
+                Iure?</p>
+
+            <!-- BARRE DE PROGRESSION -->
+            <div id="div_barre_de_progression">
+                <div class="barre_container">
+                    <div id="barre_fond_web" class="barre_fond">
+                        <p class="p_barre">Web Design</p>
+                        <p class="p_barre">95%</p>
+                    </div>
+                </div>
+                <div class="barre_container barre_container2">
+                    <div id="barre_fond_branding" class="barre_fond">
+                        <p class="p_barre">Branding</p>
+                        <p class="p_barre">80%</p>
+                    </div>
+                </div>
+
+                <div class="barre_container">
+                    <div id="barre_fond_dev" class="barre_fond">
+                        <p class="p_barre">Development</p>
+                        <p class="p_barre">90%</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="div_bouton_about">
+                <a href="#">
+                    <div id="bouton_cv">
+                        <p class="p_bouton">Download CV</p>
+                    </div>
+                </a>
+                <a href="mailto:j.dore@it-students.fr">
+                    <div id="bouton_contact">
+                        <p class="p_bouton p_bouton_color">Contact me</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================== SECTION 3 / SERVICES ==============================-->
+    <section id="section_services">
+        <h2 id="titre_services">Services.</h2>
+
+        <div id="container_services">
+
+            <div class="div_services">
+
+                <div class="cercle_service">
+                    <i class="fas fa-laptop font_cercle_service"></i>
+                </div>
+
+                <h3 class="sous_titre_services">Web design</h3>
+                <p class="p_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, qui aliquid
+                    cumque cupiditate
+                    expedita</p>
+            </div>
+
+            <div class="div_services">
+
+                <div class="cercle_service">
+                    <i class="fas fa-bullhorn font_cercle_service"></i>
+                </div>
+
+                <h3 class="sous_titre_services">Branding</h3>
+                <p class="p_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, qui aliquid
+                    cumque cupiditate
+                    expedita</p>
+            </div>
+
+            <div class="div_services">
+
+                <div class="cercle_service">
+                    <i class="fas fa-umbrella font_cercle_service"></i>
+                </div>
+
+                <h3 class="sous_titre_services">Development</h3>
+                <p class="p_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, qui aliquid
+                    cumque cupiditate
+                    expedita</p>
+            </div>
+
+            <div class="div_services">
+
+                <div class="cercle_service">
+                    <i class="fas fa-gem font_cercle_service"></i>
+                </div>
+
+                <h3 class="sous_titre_services">Creative design</h3>
+                <p class="p_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, qui aliquid
+                    cumque cupiditate
+                    expedita</p>
+            </div>
+
+            <div class="div_services">
+
+                <div class="cercle_service">
+                    <i class="fas fa-desktop font_cercle_service"></i>
+                </div>
+
+                <h3 class="sous_titre_services">Fully responsive</h3>
+                <p class="p_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, qui aliquid
+                    cumque cupiditate
+                    expedita</p>
+            </div>
+
+            <div class="div_services">
+
+                <div class="cercle_service">
+                    <i class="fas fa-camera font_cercle_service"></i>
+                </div>
+
+                <h3 class="sous_titre_services">Retina Ready</h3>
+                <p class="p_services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi optio, qui aliquid
+                    cumque cupiditate
+                    expedita</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ============================== SECTION 4 / PORTFOLIO ============================== -->
+    <section id="section_portfolio">
+        <h2 id="titre_portfolio">Portfolio.</h2>
+        <nav id="nav_portfolio">
+            <ul id="list_portfolio">
+
+                <li class="li_portfolio"><a href="#">All</a></li>
+                <li class="li_portfolio"><a href="#">Brand</a></li>
+                <li class="li_portfolio"><a href="#">Design</a></li>
+                <li class="li_portfolio"><a href="#">Graphic</a></li>
+            </ul>
+        </nav>
+        <div id="div_img_portfolio">
+
+            <div class="container_img_portfolio">
+                <div class="img_hover_portfolio">
+                    <h3 class="h3_img_hover_portfolio">WEB DESIGN</h3>
+
+                    <div class="div_cercle_portfolio">
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-link fond_cercle_portfolio"></i>
+                        </div>
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-search-plus fond_cercle_portfolio"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img_portfolio" src="img/img_portfolio/img_portfolio_macbook.jpg" alt="MacBook">
+            </div>
+
+            <div class="container_img_portfolio">
+                <div class="img_hover_portfolio">
+                    <h3 class="h3_img_hover_portfolio">WEB DESIGN</h3>
+
+                    <div class="div_cercle_portfolio">
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-link fond_cercle_portfolio"></i>
+                        </div>
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-search-plus fond_cercle_portfolio"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img_portfolio" src="img/img_portfolio/img_portfolio_induction.jpg"
+                    alt="Chargeur induction Iphone">
+            </div>
+
+            <div class="container_img_portfolio">
+                <div class="img_hover_portfolio">
+                    <h3 class="h3_img_hover_portfolio">WEB DESIGN</h3>
+
+                    <div class="div_cercle_portfolio">
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-link fond_cercle_portfolio"></i>
+                        </div>
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-search-plus fond_cercle_portfolio"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img_portfolio" src="img/img_portfolio/img_portfolio_iphone.jpg" alt="Iphone et Airpod">
+            </div>
+
+            <div class="container_img_portfolio">
+                <div class="img_hover_portfolio">
+                    <h3 class="h3_img_hover_portfolio">WEB DESIGN</h3>
+
+                    <div class="div_cercle_portfolio">
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-link fond_cercle_portfolio"></i>
+                        </div>
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-search-plus fond_cercle_portfolio"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img_portfolio" src="img/img_portfolio/img_portfolio_livre.jpg" alt="Photo d'un livre">
+            </div>
+
+            <div class="container_img_portfolio">
+                <div class="img_hover_portfolio">
+                    <h3 class="h3_img_hover_portfolio">WEB DESIGN</h3>
+
+                    <div class="div_cercle_portfolio">
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-link fond_cercle_portfolio"></i>
+                        </div>
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-search-plus fond_cercle_portfolio"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img_portfolio" src="img/img_portfolio/img_portfolio_globetouch.jpg"
+                    alt="Photo du dépliant globetouch">
+            </div>
+
+            <div class="container_img_portfolio">
+                <div class="img_hover_portfolio">
+                    <h3 class="h3_img_hover_portfolio">WEB DESIGN</h3>
+
+                    <div class="div_cercle_portfolio">
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-link fond_cercle_portfolio"></i>
+                        </div>
+                        <div class="cercle_portfolio">
+                            <i class="fas fa-search-plus fond_cercle_portfolio"></i>
+                        </div>
+                    </div>
+
+                </div>
+                <img class="img_portfolio" src="img/img_portfolio/img_portfolio_crayons.jpg" alt="Crayons de couleurs">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================== SECTION 5 / TESTIMONIAL ==============================-->
+    <section id="section_testimonials">
+        <h2 id="titre_testimonials">Testimonials.</h2>
+
+        <div class="div_testimonials">
+            <img class="img_testimonials" src="img/icones/img_induction.jpg" alt="Chargeur Iphone">
+            <p class="p_testimonials">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                doloremque sint consequatur
+                impedit ad, porro dolores quisquam dolore velit fugit molestiae saepe quis cupiditate, illum aspernatur
+                autem sed facilis!Optio porro repudiandae aliquid earum, eaque animi inventore quos quisquam delectus
+                deserunt soluta repellat aut dolore consequuntur! Expedita eveniet fugit rem eum quam aut, ipsum illo
+                ut, quos eaque consequuntur!</p>
+            <h3>Alex Smith</h3>
+            <p>Envato Customer</p>
+        </div>
+
+        <div id="div_puces_testimonials">
+            <ul id="ul_puces_testimonials">
+                <li class="li_puces_testimonials"><a href="#">①</a></li>
+                <li class="li_puces_testimonials"><a href="#">②</a></li>
+                <li class="li_puces_testimonials"><a href="#">③</a></li>
+            </ul>
+        </div>
+
+        <div class="div_testimonials">
+            <img class="img_testimonials" src="img/icones/img_induction.jpg" alt="Chargeur Iphone">
+            <p class="p_testimonials">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                doloremque sint consequatur
+                impedit ad, porro dolores quisquam dolore velit fugit molestiae saepe quis cupiditate, illum aspernatur
+                autem sed facilis!Optio porro repudiandae aliquid earum, eaque animi inventore quos quisquam delectus
+                deserunt soluta repellat aut dolore consequuntur! Expedita eveniet fugit rem eum quam aut, ipsum illo
+                ut, quos eaque consequuntur!</p>
+            <h3>Alex Smith</h3>
+            <p>Envato Customer</p>
+        </div>
+
+        <div class="div_testimonials">
+            <img class="img_testimonials" src="img/icones/img_induction.jpg" alt="Chargeur Iphone">
+            <p class="p_testimonials">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus error
+                doloremque sint consequatur
+                impedit ad, porro dolores quisquam dolore velit fugit molestiae saepe quis cupiditate, illum aspernatur
+                autem sed facilis!Optio porro repudiandae aliquid earum, eaque animi inventore quos quisquam delectus
+                deserunt soluta repellat aut dolore consequuntur! Expedita eveniet fugit rem eum quam aut, ipsum illo
+                ut, quos eaque consequuntur!</p>
+            <h3>Alex Smith</h3>
+            <p>Envato Customer</p>
+        </div>
+    </section>
+
+
+    <!--============================== SECTION 6 / INFO  ==============================-->
+    <section id="section_info">
+
+        <div class="section_info">
+            <i class="fas fas2 fa-users"></i>
+            <p class="chiffre_info">181</p>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="section_info">
+            <i class="fas fas2 fa-thumbs-up"></i>
+            <p class="chiffre_info">103</p>
+            <p>Complete Projects</p>
+        </div>
+
+        <div class="section_info">
+            <i class="fas fas2 fa-bullhorn"></i>
+            <p class="chiffre_info">2079</p>
+            <p>Lines Of Code</p>
+        </div>
+
+        <div class="section_info">
+            <i class="fas fas2 fa-cloud-download-alt"></i>
+            <p class="chiffre_info">172</p>
+            <p>Files Downloaded</p>
+        </div>
+    </section>
+
+
+
+    <!-- ============================== SECTION 7 / OUR BLOG ==============================-->
+    <section id="section_ourblog">
+        <h2 id="titre_ourblog">Our Blog.</h2>
+
+        <div class="div_ourblog">
+            <img class="img_ourblog" src="img/img_portfolio/img_portfolio_macbook.jpg" alt="MacBook">
+            <h3 class="sous_titre_div_ourblog">Themeforest</h3>
+            <h2 class="titre_div_ourblog">The 20 Best Lightroom Presets You Need to Know About</h2>
+            <a class="liens_div_ourblog" href="#">Read More</a>
+        </div>
+
+        <div class="div_ourblog">
+            <img class="img_ourblog" src="img/img_portfolio/img_portfolio_iphone.jpg" alt="Iphone et Airpod">
+            <h3 class="sous_titre_div_ourblog">Trends</h3>
+            <h2 class="titre_div_ourblog">Best Design Items to Appeal to the Millennial Generation</h2>
+            <a class="liens_div_ourblog" href="#">Read More</a>
+        </div>
+
+        <div class="div_ourblog">
+            <img class="img_ourblog" src="img/img_portfolio/img_portfolio_globetouch.jpg"
+                alt="Photo du dépliant globetouch">
+            <h3 class="sous_titre_div_ourblog">WordPress</h3>
+            <h2 class="titre_div_ourblog">Top WordPress Themes and Plugins for Hotels, Travel, and</h2>
+            <a class="liens_div_ourblog" href="#">Read More</a>
+        </div>
+
+        <div class="div_ourblog">
+            <img class="img_ourblog" src="img/img_portfolio/img_portfolio_crayons.jpg" alt="Crayons de couleurs">
+            <h3 class="sous_titre_div_ourblog">Treds</h3>
+            <h2 class="titre_div_ourblog">Master These Awesome New Skills in March 2018</h2>
+            <a class="liens_div_ourblog" href="#">Read More</a>
+        </div>
+
+        <div id="puces_ourblog">
+            <ul id="ul_puces_ourblog">
+                <li class="li_puces_ourblog"><a href="#">①</a></li>
+                <li class="li_puces_ourblog"><a href="#">②</a></li>
+                <li class="li_puces_ourblog"><a href="#">③</a></li>
+                <li class="li_puces_ourblog"><a href="#">④</a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- ============================== SECTION 8 / CONTACT US ==============================-->
+    <section id="section_contact">
+        <h2 id="titre_contact">Contact Us.</h2>
+
+        <div id="contact_me">
+            <div class="div_contact">
+                <div class="cercle_contact">
+                    <i class="fas fa-location-arrow font_cercle_contact"></i>
+                </div>
+                <h2>Address</h2>
+                <p class="p_contact">6834 Hollywood Blvd - Los Angeles CA</p>
+            </div>
+
+            <div class="div_contact">
+                <div class="cercle_contact">
+                    <i class="fas fa-envelope font_cercle_contact"></i>
+                </div>
+                <h2>Email</h2>
+                <p class="p_contact">Support@website.com</p>
+            </div>
+
+            <div class="div_contact">
+                <div class="cercle_contact">
+                    <i class="fas fa-phone font_cercle_contact"></i>
+                </div>
+                <h2>Phone</h2>
+                <p class="p_contact">+20 010 2517 8918</p>
+            </div>
+        </div>
+
+        <div id="formulaire_contact">
+            <form action="#">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <textarea name="message" id="message" cols="10" rows="10" placeholder="Message"></textarea>
+                <input type="submit" id="bouton_submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- ============================== FOOTER DE LA PAGE ==============================-->
+    <footer>
+        <p>Copyright 2018 &copy; By Daniels All Rights Reserved</p>
+    </footer>
+</body>
+</html>
