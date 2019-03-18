@@ -7,7 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
 }
@@ -53,7 +54,7 @@ header {
 }
 
 /* ------------MENU BURGER */
-#menu_burger{
+#menu_burger {
     position: relative;
     left: 82%;
     /*bottom: 37.5%;
@@ -61,7 +62,7 @@ header {
     width: 100%; */
 }
 
-#nav_burger{
+#nav_burger {
     width: 100%;
     height: 100%;
     margin-right: 10%;
@@ -89,7 +90,7 @@ header {
 
 .liens_header {
     color: rgb(22, 22, 22);
-    
+
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 1 / HOME */
@@ -147,7 +148,9 @@ header {
     padding-right: 1%;
 }
 
-#h2_section_entete, #p_section_entete, #div_liens_reseaux {
+#h2_section_entete,
+#p_section_entete,
+#div_liens_reseaux {
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -180,7 +183,9 @@ header {
 
 /* H2 H3 p / DE LA SECTION ABOUT ME */
 
-#titre_section_about, #sous_titre_section_about, #p_about {
+#titre_section_about,
+#sous_titre_section_about,
+#p_about {
     padding-left: 2%;
 }
 
@@ -234,7 +239,7 @@ header {
 
 /* ---------------------ANIMATION DES BARRES DE COMPéTENCES */
 
-#barre_fond_web{
+#barre_fond_web {
     /* animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-name: barre_fond_web; */
@@ -242,12 +247,12 @@ header {
     animation: barre_fond_web 10s normal;
 }
 
-@keyframes barre_fond_web{
+@keyframes barre_fond_web {
     0% {
         width: 30%;
     }
 
-    100%{
+    100% {
         width: 95%;
     }
 }
@@ -264,12 +269,12 @@ header {
     animation: barre_fond_branding 10s normal;
 }
 
-@keyframes barre_fond_branding{
+@keyframes barre_fond_branding {
     0% {
         width: 30%;
     }
 
-    100%{
+    100% {
         width: 80%;
     }
 }
@@ -286,12 +291,12 @@ header {
     animation: barre_fond_dev 10s normal;
 }
 
-@keyframes barre_fond_dev{
+@keyframes barre_fond_dev {
     0% {
         width: 30%;
     }
 
-    100%{
+    100% {
         width: 90%;
     }
 }
@@ -330,13 +335,23 @@ header {
     margin-right: 2%;
 }
 
-#bouton_contact {
+#bouton_cv:hover{
+    background-color: white;
+}
+
+
+
+#bouton_about_contact {
     width: 125px;
     height: 30px;
     border: 2px solid rgb(129, 128, 128);
     border-radius: 5px;
-    margin-left: 2%;
+    margin-left: 10%;
     margin-right: 2%;
+}
+
+#bouton_about_contact:hover{
+    background-color: rgb(22, 22, 22);
 }
 
 /* ---------------------P BOUTON */
@@ -350,8 +365,16 @@ header {
     color: white;
 }
 
+#bouton_cv > p:hover{
+    color: rgb(22, 22, 22);
+}
+
 .p_bouton_color {
     color: black;
+}
+
+.p_bouton_color:hover{
+    color: white;
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 3 / SERVICES */
@@ -427,7 +450,8 @@ header {
     text-align: center;
 }
 
-.sous_titre_services, .p_services {
+.sous_titre_services,
+.p_services {
     padding-top: 3%;
 }
 
@@ -678,7 +702,9 @@ header {
     font-size: 0.7em;
 }
 
-.sous_titre_div_ourblog, .titre_div_ourblog, .liens_div_ourblog {
+.sous_titre_div_ourblog,
+.titre_div_ourblog,
+.liens_div_ourblog {
     padding-left: 2%;
     padding-bottom: 2%;
 }
@@ -719,7 +745,7 @@ header {
 
 /* ----------------DIV PARENT CONTACT ME */
 
-#contact_me {
+#container_contact {
     width: 100%;
     padding-bottom: 10%;
     display: flex;
@@ -765,4 +791,77 @@ header {
 
 .font_cercle_contact:hover {
     color: white;
+}
+
+/* ------------------------FORMULAIRE CONTACT */
+#section_contact {
+    padding-bottom: 20%;
+}
+
+#formulaire_contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+input {
+    border-radius: 2.5px;
+    width: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+textarea {
+    border-radius: 2.5px;
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+/* -----------------------------BOUTON CONTACT */
+
+#bouton_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-right: 2%;
+    width: 125px;
+    height: 30px;
+    border: 2px solid rgb(129, 128, 128);
+    border-radius: 5px;
+    background-color: rgb(22, 22, 22);
+}
+
+.p_bouton_contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+
+}
+
+/* =====================FOOTER===================== */
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(22, 22, 22);
+}
+
+footer > p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
