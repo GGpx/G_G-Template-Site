@@ -123,14 +123,14 @@ header {
 #h2_section_entete {
     color: white;
     text-shadow: 2px 2px 5px lightgrey;
-    font-size: 2.5em;
+    font-size: 5em;
 }
 
 /* ------------P EN-TÊTE */
 
 #p_section_entete {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 2em;
     text-shadow: 2px 2px 5px lightgrey;
     color: white;
 }
@@ -139,11 +139,11 @@ header {
 
 #div_liens_reseaux {
     text-align: center;
-    padding-top: 7%;
+    padding-top: 2.5%;
 }
 
 .icones_reseaux {
-    width: 6%;
+    width: 10%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -319,7 +319,7 @@ header {
 #div_bouton_about {
     display: flex;
     flex-direction: row;
-    width: 98%;
+    width: 100%;
     padding-top: 10%;
     padding-left: 2%;
     padding-bottom: 5%;
@@ -352,6 +352,7 @@ header {
 
 #bouton_about_contact:hover{
     background-color: rgb(22, 22, 22);
+    border: 2px solid rgb(22, 22, 22);
 }
 
 /* ---------------------P BOUTON */
@@ -812,7 +813,7 @@ input {
     width: 90%;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.075);
 }
 
 textarea {
@@ -821,7 +822,7 @@ textarea {
     height: 100px;
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.075);
 }
 
 /* -----------------------------BOUTON CONTACT */
@@ -840,6 +841,11 @@ textarea {
     background-color: rgb(22, 22, 22);
 }
 
+#bouton_contact:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
 .p_bouton_contact {
     display: flex;
     flex-direction: row;
@@ -848,6 +854,10 @@ textarea {
     width: 100%;
     color: white;
 
+}
+
+.p_bouton_contact:hover{
+    color: rgb(22, 22, 22);
 }
 
 /* =====================FOOTER===================== */

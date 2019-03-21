@@ -82,7 +82,7 @@ function decoration() {
     }
 
 
-    // POUR LES LIENS SUR LE HEADER TESTIMONIALS
+    // POUR LES LIENS SUR LE HEADER / TESTIMONIALS
     if (document.documentElement.scrollTop > 4350) {
 
 

@@ -4,7 +4,10 @@
         margin: 0;
     }
 
-
+    .fas{
+        font-size: 2em;
+    }
+    
     /* =================HEADER================ */
     #header_menu {
         padding-top: 1%;
@@ -52,6 +55,20 @@
     #div_liens_reseaux {
         padding-top: 0%;
     }
+    
+    #h2_section_entete{
+        font-size: 12em;
+        margin-bottom: 0;
+    }
+
+    #p_section_entete{
+        font-size: 3em;
+        margin-top: 0;
+    }
+
+    .icones_reseaux{
+        width: 8%;
+    }
     /* ==================SECTION ABOUT ME============== */
     #section_about {
         display: flex;
@@ -69,28 +86,42 @@
     #img_section_about {
         width: 500px;
     }
-
-    #p_about{
+    #p_about {
         font-size: 1em;
     }
-
-    #div_barre_de_progression{
+    #div_barre_de_progression {
         padding-top: 0;
         padding-bottom: 4%;
     }
-
-    .barre_container{
+    .barre_container {
         height: 20%;
+        border-radius: 10px;
+    }
+    .barre_fond {
+        height: 100%;
+        border-radius: 10px;
+    }
+    #bouton_cv{
+        width: 150px;
+        height: 50px;
     }
 
-    .barre_fond{
-        height: 100%;
+    #bouton_cv:hover{
+        transition: 0.5s;
+    }
+
+    #bouton_about_contact{
+        width: 150px;
+        height: 50px;
+    }
+
+    #bouton_about_contact:hover{
+        transition: 0.5s;
     }
 
     #div_bouton_about {
-        padding-top: 10%;
+        padding-top: 9%;
     }
-
     
     /* ==================SECTION SERVICE============== */
     #section_services {
@@ -106,12 +137,22 @@
     #titre_services {
         padding-top: 10%;
         padding-bottom: 5%;
+        font-size: 2.5em;
     }
     /* DIV SERVICES */
     .div_services {
         width: 40%;
         padding-bottom: 1%;
         padding-top: 1%;
+    }
+    .cercle_service {
+        width: 20%;
+    }
+    .sous_titre_services {
+        font-size: 1em;
+    }
+    .p_services {
+        font-size: 0.9em;
     }
     /* =================SECTION PORTFOLIO================ */
     #section_portfolio {
@@ -121,10 +162,16 @@
     #titre_portfolio {
         padding-top: 10%;
         padding-bottom: 5%;
+        font-size: 2.5em;
     }
     #list_portfolio {
         padding-bottom: 0%;
     }
+
+    .li_portfolio{
+        font-size: 1.2em;
+    }
+
     #div_img_portfolio {
         margin-left: 5%;
         margin-right: 5%;
@@ -139,6 +186,11 @@
         padding-right: 2.5%;
         padding-top: 2.5%;
     }
+
+    .cercle_portfolio{
+        width: 15%;
+        height: 100%;
+    }
     /* ================SECTION TESTIMONIALS============= */
     #section_testimonials {
         padding-bottom: 5%;
@@ -146,6 +198,7 @@
     #titre_testimonials {
         padding-top: 10%;
         padding-bottom: 5%;
+        font-size: 2.5em;
     }
     .div_testimonials {
         margin-left: 10%;
@@ -155,6 +208,7 @@
     .p_testimonials {
         padding-top: 2.5%;
         padding-bottom: 2.5%;
+        font-size: 1em;
     }
     /* ===================SECTION INFO================= */
     #section_info {
@@ -165,52 +219,46 @@
         padding-bottom: 5%;
     }
 
-    /* ===============SECTION OUR BLOG============= */
 
-    #titre_ourblog{
+    /* ===============SECTION OUR BLOG============= */
+    #titre_ourblog {
         padding-top: 10%;
         padding-bottom: 10%;
+        font-size: 2.5em;
     }
-    
-    #container_ourblog{
+    #container_ourblog {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
-
-    .div_ourblog{
+    .div_ourblog {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 20%;
         height: 50%;
         margin-left: 1%;
         margin-right: 1%;
     }
-
-    .sous_titre_div_ourblog,.titre_div_ourblog,.liens_div_ourblog{
+    .sous_titre_div_ourblog, .titre_div_ourblog, .liens_div_ourblog {
         padding-left: 0;
     }
-
-    #ul_puces_ourblog{
+    #ul_puces_ourblog {
         padding-top: 5%;
         padding-bottom: 5%;
     }
-
     /* ===============SECTION CONTACT================ */
-    #section_contact{
+    #section_contact {
         padding-bottom: 10%;
     }
-    
-    #titre_contact{
+    #titre_contact {
         padding-top: 10%;
         padding-bottom: 10%;
     }
-
-    #container_contact{
+    #container_contact {
         width: 100%;
         padding-bottom: 0;
         display: flex;
@@ -218,30 +266,29 @@
         justify-content: space-between;
         align-items: center;
     }
-
-    .div_contact{
+    .cercle_contact {
+        width: 20%;
+    }
+    .div_contact {
         width: 100%;
     }
-
-    #formulaire_contact{
+    #formulaire_contact {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
-    input{
+    input {
         width: 40%;
         height: 30px;
         margin-right: 4.8%;
     }
-
-    textarea{
+    textarea {
         margin: 0;
         height: 200px;
     }
-
-    #bouton_contact{
-        margin-left: 4.7%;
+    #bouton_contact {
+        margin-left: 4.9%;
+        width: 10%;
+        height: 50px;
     }
-
 }
