@@ -4,8 +4,8 @@
     color: rgb(37, 37, 37);
     margin: 0;
     scroll-behavior: smooth;
-    
-    
+
+
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -157,9 +157,9 @@ header {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 2 / ABOUT ME  */
 
 #section_about {
+    background-color: rgba(0, 0, 0, 0.068);
     height: 100%;
-    padding-bottom: 5%;
-    margin-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 /* -------------IMAGE */
@@ -335,7 +335,8 @@ header {
 }
 
 #bouton_cv:hover {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.068);
+    border: 2px solid rgb(129, 128, 128);
 }
 
 
@@ -385,7 +386,7 @@ header {
     box-shadow: 2px 2px 5px lightgrey;
     display: flex;
     flex-direction: column;
-    background-color: rgba(219, 219, 219, 0.212);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.384));
 }
 
 /* -----------------TITRE SERVICE */
@@ -411,6 +412,7 @@ header {
     margin: 2.5%;
     padding-bottom: 2%;
     box-shadow: 2px 5px 5px lightgrey;
+    border-radius: 10px;
 }
 
 /* ---------------------H3 ET P DE LA SECTION 3 / SERVICES */
@@ -458,8 +460,8 @@ header {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 4 / PORTFOLIO */
 
 #section_portfolio {
-    padding-bottom: 15%;
-    margin-bottom: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.068));
+    padding-bottom: 25%;
     box-shadow: 2px 5px 5px lightgrey;
 }
 
@@ -505,6 +507,7 @@ header {
     padding-bottom: 5%;
     width: 350px;
     height: 300px;
+    border-radius: 80px;
 }
 
 /* ------------------IMAGE DU SURVOLE : HOVER */
@@ -524,6 +527,7 @@ header {
 .img_hover_portfolio:hover {
     opacity: 0.8;
     transition: 0.5s;
+    border-radius: 80px;
 }
 
 /* --------------SOUS-TITRE DE LA L'IMAGE DU SURVOLE : HOVER */
@@ -570,6 +574,7 @@ header {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 5 / TESTIMONIALS */
 
 #section_testimonials {
+    background-color: rgba(0, 0, 0, 0.068);
     box-shadow: 2px 5px 5px lightgrey;
     border-bottom: 3px solid lightgrey;
     padding-bottom: 10%;
@@ -594,8 +599,14 @@ header {
     margin-bottom: 10%;
 }
 
+.div_slider2,
+.div_slider3 {
+    display: none;
+}
+
 .img_testimonials {
     width: 20%;
+    border-radius: 80px;
 }
 
 .p_testimonials {
@@ -621,6 +632,7 @@ header {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 6 / INFO */
 
 #section_info {
+    background-color: rgba(0, 0, 0, 0.068);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -653,8 +665,8 @@ header {
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 7 / OUR BLOG */
 
 #section_ourblog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.068), rgba(0, 0, 0, 0.384));
     box-shadow: 2px 0px 0px lightgrey;
-    border-bottom: 3px solid lightgrey;
 }
 
 /* ---------------TITRE OUR BLOG */
@@ -668,18 +680,21 @@ header {
 }
 
 
-#container_ourblog{
+#container_ourblog {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 /* --------------DIV OUR BLOG */
 
 .div_ourblog {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 5%;
 }
 
@@ -687,7 +702,9 @@ header {
     width: 375px;
     height: 300px;
     padding-bottom: 5%;
+    border-radius: 30px;
 }
+
 
 /* -----------------SOUS-TITRE DE LA DIV OUR BLOG */
 
@@ -716,11 +733,6 @@ header {
     padding-bottom: 2%;
 }
 
-/* -----------------LISTE A PUCES */
-
-#puces_ourblog {
-    background-color: rgba(219, 219, 219, 0.212);
-}
 
 #ul_puces_ourblog {
     padding-top: 20%;
@@ -730,7 +742,6 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-top: 3px solid lightgrey;
     box-shadow: 2px 5px 5px lightgrey;
 }
 
@@ -739,6 +750,10 @@ header {
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& SECTION 8 / CONTACT ME */
+#section_contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.068));
+    padding-bottom: 20%;
+}
 
 /* ------------------TITRE CONTACT */
 
@@ -801,9 +816,6 @@ header {
 }
 
 /* ------------------------FORMULAIRE CONTACT */
-#section_contact {
-    padding-bottom: 20%;
-}
 
 #formulaire_contact {
     width: 100%;
@@ -848,7 +860,7 @@ textarea {
 }
 
 #bouton_contact:hover {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.068);
     transition: 0.5s;
 }
 
@@ -880,4 +892,5 @@ footer>p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
