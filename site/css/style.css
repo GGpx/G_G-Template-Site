@@ -4,12 +4,14 @@
     color: rgb(37, 37, 37);
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    
+    
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1,
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Germania One', cursive;
     font-weight: 800;
 }
 
@@ -28,7 +30,8 @@ li {
 
 /* FONT-AWESOME */
 
-.fas {
+.fas,
+.fab {
     font-size: 18px;
 }
 
@@ -57,21 +60,20 @@ header {
 #menu_burger {
     position: relative;
     left: 82%;
-    /*bottom: 37.5%;
-    
-    width: 100%; */
+    color: white;
 }
 
 #nav_burger {
     width: 100%;
     height: 100%;
     margin-right: 10%;
-    background-color: rgba(255, 255, 255, 0.753);
+    background-color: rgba(168, 168, 168, 0.918);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     visibility: hidden;
+    z-index: 999;
 }
 
 /* ----------NAVIGATION */
@@ -80,6 +82,7 @@ header {
     padding-top: 1%;
     padding-left: 0;
     height: 100%;
+    color: rgb(22, 22, 22);
 }
 
 .li_header {
@@ -88,10 +91,6 @@ header {
     padding-bottom: 20%;
 }
 
-.liens_header {
-    color: rgb(22, 22, 22);
-
-}
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&  SECTION 1 / HOME */
 
@@ -335,7 +334,7 @@ header {
     margin-right: 2%;
 }
 
-#bouton_cv:hover{
+#bouton_cv:hover {
     background-color: white;
 }
 
@@ -350,7 +349,7 @@ header {
     margin-right: 2%;
 }
 
-#bouton_about_contact:hover{
+#bouton_about_contact:hover {
     background-color: rgb(22, 22, 22);
     border: 2px solid rgb(22, 22, 22);
 }
@@ -366,7 +365,7 @@ header {
     color: white;
 }
 
-#bouton_cv > p:hover{
+#bouton_cv>p:hover {
     color: rgb(22, 22, 22);
 }
 
@@ -374,7 +373,7 @@ header {
     color: black;
 }
 
-.p_bouton_color:hover{
+.p_bouton_color:hover {
     color: white;
 }
 
@@ -668,6 +667,13 @@ header {
     font-size: 2em;
 }
 
+
+#container_ourblog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* --------------DIV OUR BLOG */
 
 .div_ourblog {
@@ -841,7 +847,7 @@ textarea {
     background-color: rgb(22, 22, 22);
 }
 
-#bouton_contact:hover{
+#bouton_contact:hover {
     background-color: white;
     transition: 0.5s;
 }
@@ -856,18 +862,18 @@ textarea {
 
 }
 
-.p_bouton_contact:hover{
+.p_bouton_contact:hover {
     color: rgb(22, 22, 22);
 }
 
 /* =====================FOOTER===================== */
-footer{
+footer {
     width: 100%;
     height: 70px;
     background-color: rgb(22, 22, 22);
 }
 
-footer > p {
+footer>p {
     width: 100%;
     height: 100%;
     display: flex;
