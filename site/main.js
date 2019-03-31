@@ -39,7 +39,6 @@ function decoration() {
     // POUR LES LIENS SUR LE HEADER / ABOUT ME
     if (window.matchMedia("(min-width: 1050px)").matches) {
 
-
         if (document.documentElement.scrollTop > 820) {
 
             var tab = document.getElementsByClassName('liens_header');

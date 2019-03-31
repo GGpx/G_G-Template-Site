@@ -8,6 +8,9 @@
         font-size: 2em;
     }
     
+    .icones_reseaux{
+        font-size: 3em;
+    }
     
     /* =================HEADER================ */
     #header_menu {
@@ -67,9 +70,6 @@
         margin-top: 0;
     }
 
-    .icones_reseaux{
-        width: 8%;
-    }
     /* ==================SECTION ABOUT ME============== */
     #section_about {
         display: flex;

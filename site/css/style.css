@@ -137,14 +137,22 @@ header {
 /*-------- LIENS RESEAUX SOCIAUX */
 
 #div_liens_reseaux {
-    text-align: center;
-    padding-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.icones_reseaux {
-    width: 10%;
-    padding-left: 1%;
-    padding-right: 1%;
+.icones_reseaux{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.icones_reseaux:hover{
+    color: rgb(22, 22, 22);
 }
 
 #h2_section_entete,
@@ -364,14 +372,15 @@ header {
     align-items: center;
     height: 100%;
     color: white;
+    font-size: 13px;
 }
 
-#bouton_cv>p:hover {
+#bouton_cv>a:hover {
     color: rgb(22, 22, 22);
 }
 
 .p_bouton_color {
-    color: black;
+    color: rgb(22, 22, 22);
 }
 
 .p_bouton_color:hover {
